@@ -71,6 +71,21 @@ header.site-header > nav > p,
 	width: 100% !important;
 }
 
+section[role="doc-bibliography"],
+section[role="doc-bibliography"] > h2,
+section[role="doc-bibliography"] > ol,
+section[role="doc-bibliography"] > ul {
+	width: 100% !important;
+	max-width: none !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
+section[role="doc-bibliography"] > ol,
+section[role="doc-bibliography"] > ul {
+	padding-left: 1.5rem !important;
+}
+
 @media (max-width: 760px) {
 	body > header.site-header,
 	body > header.site-header:nth-of-type(2),

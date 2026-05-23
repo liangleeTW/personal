@@ -34,7 +34,7 @@
   footer-elements: (),
 
   // Custom CSS and JS Scripts
-  css: ("/personal/assets/custom.css?v=20260523-3",),
+  css: ("/personal/assets/custom.css?v=20260523-4",),
   js-scripts: (),
 
   content,
@@ -69,8 +69,8 @@
         // load CSS
         let base-css = (
           "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css",
-          "/personal/assets/tufted.css?v=20260523-3",
-          "/personal/assets/theme.css?v=20260523-3",
+          "/personal/assets/tufted.css?v=20260523-4",
+          "/personal/assets/theme.css?v=20260523-4",
         )
         for (css-link) in (base-css + css).dedup() {
           html.link(rel: "stylesheet", href: css-link)
