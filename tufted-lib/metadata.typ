@@ -91,7 +91,7 @@
     "Untitled Page"
   }
   html.title(page-title)
-  html.link(rel: "icon", href: "/assets/favicon.ico")
+  html.link(rel: "icon", href: "/personal/assets/logo.jpg")
 
   // Date
   if type(date) == datetime {
@@ -106,7 +106,7 @@
     html.link(
       rel: "alternate",
       type: "application/rss+xml",
-      href: "/feed.xml",
+      href: "/personal/feed.xml",
       title: rss-title + " RSS Feed",
     )
   }

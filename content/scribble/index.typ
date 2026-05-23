@@ -1,12 +1,23 @@
 #import "../index.typ": template, tufted
 #show: template.with(
-  title: "Blog",
+  title: "Scribble",
   description: "Some blog examples",
 )
 
-= 博客 / Blog
+= Scribble
 
-中文博客样例可参考 #link("https://yousa-mirage.github.io/Blog")[我的个人网站]。
+#html.elem("div", attrs: (class: "epigraph"))[
+  #html.elem("p")[
+    #html.elem("em")["We know more than we can tell."]
+    #html.br()
+    — Michael Polanyi
+  ]
+  #html.elem("p")[
+    #html.elem("em")["We tell more than we can know."]
+    #html.br()
+    — Richard E. Nisbett & Timothy D. Wilson
+  ]
+]
 
 == 2025
 
@@ -15,6 +26,7 @@
   path: "2025-10-30-normal-distribution/",
   title: "Normal Distribution",
 )
+/*
 #tufted.blog-entry(
   date: datetime(year: 2025, month: 4, day: 16),
   path: "2025-04-16-monkeys-apes",
@@ -28,3 +40,4 @@
   path: "2024-10-04-iterators-generators/",
   title: "Iterators vs Generators in Python",
 )
+*/
